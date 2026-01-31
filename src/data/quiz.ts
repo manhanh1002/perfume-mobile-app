@@ -4,41 +4,41 @@ export const QUIZ_STEPS: QuizStep[] = [
   {
     id: "purpose",
     type: "single",
-    question: "When will you wear this fragrance?",
+    question: "Bạn sẽ sử dụng nước hoa này vào dịp nào?",
     options: [
-      { label: "Daily wear", value: "daily" },
-      { label: "Date night / Romance", value: "date" },
-      { label: "Office / Work", value: "office" },
-      { label: "Special events", value: "special" }
+      { label: "Hàng ngày", value: "daily" },
+      { label: "Hẹn hò / Lãng mạn", value: "date" },
+      { label: "Công sở / Đi làm", value: "office" },
+      { label: "Sự kiện đặc biệt", value: "special" }
     ]
   },
   {
     id: "personality",
     type: "single",
-    question: "Which personality resonates with you?",
+    question: "Phong cách nào mô tả đúng nhất về bạn?",
     options: [
-      { label: "Romantic & Dreamy", value: "romantic", icon: "💕" },
-      { label: "Bold & Confident", value: "bold", icon: "⚡" },
-      { label: "Fresh & Clean", value: "fresh", icon: "🌿" },
-      { label: "Mysterious & Dark", value: "mysterious", icon: "🌙" }
+      { label: "Lãng mạn & Mơ mộng", value: "romantic" },
+      { label: "Táo bạo & Tự tin", value: "bold" },
+      { label: "Tươi mới & Sạch sẽ", value: "fresh" },
+      { label: "Huyền bí & Bí ẩn", value: "mysterious" }
     ]
   },
   {
     id: "scentFamilies",
     type: "multi",
-    question: "Select the scent families you love (pick 1-3)",
+    question: "Chọn nhóm hương bạn yêu thích (chọn 1-3)",
     options: [
-      { label: "Floral", value: "floral" },
-      { label: "Citrus / Fresh", value: "citrus" },
-      { label: "Oriental / Warm", value: "oriental" },
-      { label: "Fruity", value: "fruity" },
-      { label: "Herbal / Green", value: "herbal" }
+      { label: "Hương hoa cỏ", value: "floral" },
+      { label: "Cam chanh / Tươi mát", value: "citrus" },
+      { label: "Hương phương Đông / Ấm áp", value: "oriental" },
+      { label: "Hương trái cây", value: "fruity" },
+      { label: "Thảo mộc / Cây cỏ", value: "herbal" }
     ]
   },
   {
     id: "intensity",
     type: "slider",
-    question: "How intense should the fragrance be?",
+    question: "Bạn muốn độ tỏa hương như thế nào?",
     minValue: 1,
     maxValue: 10,
     defaultValue: 5,
@@ -47,28 +47,28 @@ export const QUIZ_STEPS: QuizStep[] = [
   {
     id: "budget",
     type: "single",
-    question: "What's your budget for this fragrance?",
+    question: "Ngân sách của bạn cho chai nước hoa này là bao nhiêu?",
     options: [
-      { label: "Under 1,500,000 VND", value: "budget_low" },
-      { label: "1,500,000 - 3,000,000 VND", value: "budget_mid" },
-      { label: "3,000,000 - 5,000,000 VND", value: "budget_high" },
-      { label: "Above 5,000,000 VND", value: "budget_luxury" }
+      { label: "Dưới 1.500.000 VND", value: "budget_low" },
+      { label: "1.500.000 - 3.000.000 VND", value: "budget_mid" },
+      { label: "3.000.000 - 5.000.000 VND", value: "budget_high" },
+      { label: "Trên 5.000.000 VND", value: "budget_luxury" }
     ]
   },
   {
     id: "gender",
     type: "single",
-    question: "Who is this fragrance for?",
+    question: "Nước hoa này dành cho ai?",
     options: [
-      { label: "For Me - Female", value: "female", icon: "👩" },
-      { label: "For Me - Male", value: "male", icon: "👨" },
-      { label: "Unisex", value: "unisex", icon: "👥" },
-      { label: "As a Gift", value: "gift", icon: "🎁" }
+      { label: "Cho tôi - Nữ", value: "female" },
+      { label: "Cho tôi - Nam", value: "male" },
+      { label: "Unisex", value: "unisex" },
+      { label: "Làm quà tặng", value: "gift" }
     ]
   },
   {
     id: "review",
     type: "review",
-    question: "Review your preferences"
+    question: "Xem lại lựa chọn của bạn"
   }
 ];

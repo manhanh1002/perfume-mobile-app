@@ -1,7 +1,6 @@
 export interface QuizOption {
   label: string;
   value: string | number;
-  icon?: string;
 }
 
 export interface QuizStep {

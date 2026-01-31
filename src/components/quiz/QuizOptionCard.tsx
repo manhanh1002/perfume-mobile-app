@@ -12,7 +12,6 @@ export const QuizOptionCard: React.FC<QuizOptionCardProps> = ({ option, isSelect
   return (
     <Card
       title={option.label}
-      icon={option.icon}
       isSelected={isSelected}
       onSelect={onSelect}
       className="mb-3"
